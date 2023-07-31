@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+:root {
+    --corPrincipal: #b9cffb;
+    --corSegundaria: #111;
+}
+
+.inputStyle {
+    border-radius: 15px;
+    padding: 8px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    color: #5d5d5d;
+}
